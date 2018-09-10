@@ -1,0 +1,11 @@
+PSW: ababababab
+SALT: cdcdcdcd
+#K: "replace with a K value"
+#X: "replace with a X value"
+#m: 5
+t: 5
+#p: 4
+#T: 5
+type: ARGON2D
+
+Attention! the value of "m", "t", "p", "T" must be integer; the value of "type" must be choosen from the values ARGON2I, ARGON2D, ARGON2ID, ARGON2DS. If the user does not want to specifies the value of some parameters, just comment the line corresponding to the parameter, using #. The value of PSW and SALT are mandatory!
